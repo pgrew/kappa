@@ -10,9 +10,10 @@ type NodeType int
 
 const (
 	UseNamespaceType    NodeType = iota
-	CreateNamespaceType NodeType = iota
-	DropNamespaceType   NodeType = iota
-	ShowNamespaceType   NodeType = iota
+	CreateNamespaceType
+	DropNamespaceType
+	ShowNamespaceType
+	AddRoleType
 )
 
 // Node is an interface for AST nodes
